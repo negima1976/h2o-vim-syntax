@@ -19,8 +19,8 @@ syn region h2oString start=+"+ end=+"+ skip=+\\\\\|\\"+ contains=h2oVariableStri
 syn region h2oString start=+'+ end=+'+ skip=+\\\\\|\\'+ contains=h2oVariableString oneline
 syn match h2oComment ' *#.*$'
 
-syn match h2oBoolean '\c\(on\|off\)'ms=s+1,me=e-1
-syn match h2oBoolean '\c\(yes\|no\)'ms=s+1,me=e-1
+syn match h2oBoolean '\c\(on\|off\)'
+syn match h2oBoolean '\c\(yes\|no\)'
 
 syn keyword h2oDirectiveBlock hosts                                   contained
 syn keyword h2oDirectiveBlock paths                                   contained
