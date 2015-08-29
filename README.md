@@ -10,4 +10,8 @@ Add this line to ~/.vimrc
 NeoBundle 'negima1976/h2o-vim-syntax'
 au BufRead,BufNewFile /etc/h2o/* set ft=h2o
 ```
+
+Run NeoBundleInstall
+```
 :NeoBundleInstall
+```
