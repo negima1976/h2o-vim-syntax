@@ -111,6 +111,6 @@ hi link h2oString             String
 hi link h2oBoolean            Boolean
 hi link h2oDirectiveBlock     Statement
 hi link h2oDirective          Identifier
-hi link h2oDirectiveAttribute Identifier
+hi link h2oDirectiveAttribute Special
 
 let b:current_syntax = "h2o"
