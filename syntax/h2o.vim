@@ -24,8 +24,8 @@ syn match h2oBoolean '\c\(yes\|no\)'
 
 syn keyword h2oDirectiveBlock hosts                                   contained
 syn keyword h2oDirectiveBlock paths                                   contained
-syn keyword h2oDirectiveBlock listen                                  contained
 
+syn keyword h2oDirectiveAttribute listen                              contained
 syn keyword h2oDirectiveAttribute certificate-file                    contained
 syn keyword h2oDirectiveAttribute key-file                            contained
 syn keyword h2oDirectiveAttribute minimum-version                     contained
