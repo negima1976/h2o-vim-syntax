@@ -1,6 +1,7 @@
 # h2o-vim-syntax
 
 h2o.vim highlights configuration files for h2o, the optimized HTTP/1.x, HTTP/2 server
+
 [h2o](https://h2o.examp1e.net/)
 
 ## Install

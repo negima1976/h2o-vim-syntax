@@ -52,6 +52,10 @@ syn keyword h2oDirectiveAttribute url                                 contained
 syn keyword h2oDirectiveAttribute port                                contained
 syn keyword h2oDirectiveAttribute host                                contained
 syn keyword h2oDirectiveAttribute extension                           contained
+syn keyword h2oDirectiveAttribute capacity-bits                       contained
+syn keyword h2oDirectiveAttribute tracking-types                      contained
+syn keyword h2oDirectiveAttribute highest                             contained
+syn keyword h2oDirectiveAttribute normal                              contained
 
 syn keyword h2oDirective error-log                                    contained
 syn keyword h2oDirective limit-request-body                           contained
@@ -97,7 +101,9 @@ syn keyword h2oDirective redirect                                     contained
 syn keyword h2oDirective reproxy                                      contained
 syn keyword h2oDirective ssl-session-resumption                       contained
 syn keyword h2oDirective user                                         contained
-
+syn keyword h2oDirective http2-casper                                 contained
+syn keyword h2oDirective mruby-handler                                contained
+syn keyword h2oDirective mruby-handler-file                           contained
 
 " highlight
 
