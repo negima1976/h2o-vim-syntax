@@ -1,6 +1,7 @@
 " Vim syntax file
 " Language: h2o
 " Maintainer: Atsushi Mori <negima1976@negima.mobi>
+" Version: 0.1
 " URL: https://github.com/negima1976/h2o.vim
 
 if exists("b:current_syntax")
