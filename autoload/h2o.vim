@@ -4,7 +4,7 @@
 " Version: 0.2
 " URL: https://github.com/negima1976/h2o.vim
 
-function! h2oconfigtest#s:h2oconfigtest() abort "{{{
+function! h2oconfigtest#s:H2oconfigtest() abort "{{{
   w
     if has('win32') || has('gui_running')
       let l:cmd = "!"

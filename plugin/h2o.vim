@@ -5,4 +5,4 @@
 " URL: https://github.com/negima1976/h2o.vim
 " h2o.vim calls function (autoload/h2o.vim)
 
-command! h2o call h2oconfigtest#s:h2oconfigtest()
+command! H2oconfigtest call h2oconfigtest#s:H2oconfigtest()
